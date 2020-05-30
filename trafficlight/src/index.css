@@ -1,0 +1,105 @@
+.palo{
+  margin: 0px auto;
+  height: 160px;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  background-color: black;
+}
+
+.Semaforo {
+  background-color: black;
+  margin: 0px auto;
+  height: 500px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+
+.Semaforo .Red {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(197, 1, 1);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: 5px;
+  align-items: center;
+}
+.Semaforo .RedLightning{
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: 5px;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 33px 8px rgba(238,255,89,1);
+  -moz-box-shadow: 0px 0px 33px 8px rgba(238,255,89,1);
+  box-shadow: 0px 0px 33px 8px rgba(238,255,89,1);
+}
+
+.Semaforo .Yellow {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(199, 199, 2);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: 5px;
+  align-items: center;
+}
+
+.Semaforo .YellowLightning{
+  width: 150px;
+  height: 150px;
+  background-color: rgb(255, 255, 0);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: 5px;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 33px 8px rgba(238,255,89,1);
+  -moz-box-shadow: 0px 0px 33px 8px rgba(238,255,89,1);
+  box-shadow: 0px 0px 33px 8px rgba(238,255,89,1);
+}
+
+.Semaforo .Green {
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: 5px;
+  align-items: center;
+}
+
+.Semaforo .GreenLightning{
+  width: 150px;
+  height: 150px;
+  background-color: rgb(4, 209, 4);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: 5px;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 33px 8px rgba(238,255,89,1);
+  -moz-box-shadow: 0px 0px 33px 8px rgba(238,255,89,1);
+  box-shadow: 0px 0px 33px 8px rgba(238,255,89,1);
+}
